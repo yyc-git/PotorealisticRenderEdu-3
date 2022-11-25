@@ -1,0 +1,29 @@
+{
+    "name": "potorealistic-render-edu-3",
+    "private": true,
+    "scripts": {
+        "clean": "lerna clean",
+        "install": "lerna bootstrap",
+        "build": "lerna run build:ts --concurrency 1"
+    },
+    "workspaces": [
+        "lessons/*"
+    ],
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        }
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "dependencies": {
+        "@cwasm/jpeg-turbo": "^0.1.3",
+        "@cwasm/lodepng": "^0.1.4",
+        "atob": "^2.1.2",
+        "skia-canvas": "^0.9.26",
+        "cross-blob": "^2.0.0",
+        "lodash": "^4.17.20",
+        "wonder-webgpu": "0.0.1"
+    }
+}
