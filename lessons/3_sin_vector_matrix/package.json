@@ -1,5 +1,6 @@
 {
-	"name": "introduce",
+	"name": "3_sin_vector_matrix",
+	"type": "module",
 	"version": "0.0.1",
 	"description": "",
 	"scripts": {},
