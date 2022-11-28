@@ -73,8 +73,8 @@ let _main = async () => {
         bindGroupLayouts: []
     });
 
-    let vertexShaderModule = device.createShaderModule({ code: fs.readFileSync(path.join(process.cwd(), "lessons/basic/triangle/code/scene.vert"), "utf-8") });
-    let fragmentShaderModule = device.createShaderModule({ code: fs.readFileSync(path.join(process.cwd(), "lessons/basic/triangle/code/scene.frag"), "utf-8") });
+    let vertexShaderModule = device.createShaderModule({ code: fs.readFileSync(path.join(process.cwd(), "lessons/2_triangle/code/scene.vert"), "utf-8") });
+    let fragmentShaderModule = device.createShaderModule({ code: fs.readFileSync(path.join(process.cwd(), "lessons/2_triangle/code/scene.frag"), "utf-8") });
 
     let pipeline = device.createRenderPipeline({
         layout,
