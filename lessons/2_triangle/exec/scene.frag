@@ -4,5 +4,5 @@
 layout(location = 0) out vec4 outColor;
 
 void main() {
-    // TODO implement
+    // TODO implement: red color
 }
