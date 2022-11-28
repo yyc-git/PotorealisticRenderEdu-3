@@ -30,7 +30,7 @@ let _main = async () => {
     let window = new WebGPU.WebGPUWindow({
         width: 640,
         height: 480,
-        title: "Wonder-Offline-Render-Edu",
+        title: "Wonder-Potorealistic-Render-Edu",
         resizable: false
     });
 
